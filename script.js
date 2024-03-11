@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const images = ['images/image_1.jpg', 'images/image_2.jpg' /*Add more image paths here*/];
+  const images = [
+    'images/image_1.jpg', 
+    'images/image_2.jpg', 
+    'images/image_3.jpg',
+    'images/image_4.jpg',
+    'images/image_5.jpg',
+  ];
+
+  
   const imageContainer = document.getElementById('imageContainer');
   
   // Random image rotation
